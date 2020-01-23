@@ -35,7 +35,7 @@ class Main extends StatelessWidget {
                     fontSize: 20.0),
               ),
               Card(
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 25.0),
                 child: ListTile(
                     leading: Icon(
                       Icons.phone,
@@ -47,7 +47,21 @@ class Main extends StatelessWidget {
                           color: Colors.teal.shade900,
                           fontFamily: 'Roboto Condensed Regular'),
                     )),
-              )
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 25.0),
+                child: ListTile(
+                    leading: Icon(
+                      Icons.email,
+                      color: Colors.teal,
+                    ),
+                    title: Text(
+                      'mpho@gmail.com',
+                      style: TextStyle(
+                          color: Colors.teal.shade900,
+                          fontFamily: 'Roboto Condensed Regular'),
+                    )),
+              ),
             ],
           ),
         ),
